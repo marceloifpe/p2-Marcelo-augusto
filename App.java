@@ -1,125 +1,152 @@
-
-
+/*História Interativa da Copa do Mundo 2022, a história foi baseada em cima da seleção de portugal,
+ brasil e argentina
+*/
 import java.util.Scanner;
 
 public class App {
-    public static final String ANSI_RESET = "\u001B[0m";
-    public static final String ANSI_BLACK = "\u001B[30m";
-    public static final String ANSI_RED = "\u001B[31m";
-    public static final String ANSI_GREEN = "\u001B[32m";
-    public static final String ANSI_YELLOW = "\u001B[33m";
-    public static final String ANSI_BLUE = "\u001B[34m";
-    public static final String ANSI_PURPLE = "\u001B[35m";
-    public static final String ANSI_CYAN = "\u001B[36m";
-    public static final String ANSI_WHITE = "\u001B[37m";
-
-    public static final String ANSI_BLACK_BACKGROUND = "\u001B[40m";
-    public static final String ANSI_RED_BACKGROUND = "\u001B[41m";
-    public static final String ANSI_GREEN_BACKGROUND = "\u001B[42m";
-    public static final String ANSI_YELLOW_BACKGROUND = "\u001B[43m";
-    public static final String ANSI_BLUE_BACKGROUND = "\u001B[44m";
-    public static final String ANSI_PURPLE_BACKGROUND = "\u001B[45m";
-    public static final String ANSI_CYAN_BACKGROUND = "\u001B[46m";
-    public static final String ANSI_WHITE_BACKGROUND = "\u001B[47m";
-    // System.out.println(ANSI_RED + "This text is red!" + ANSI_RESET);
-    // System.out.println(ANSI_GREEN_BACKGROUND + "This text has a green background but default text!" + ANSI_RESET);
-    // System.out.println(ANSI_RED + "This text has red text but a default background!" + ANSI_RESET);
-    // System.out.println(ANSI_GREEN_BACKGROUND + ANSI_RED + "This text has a green background and red text!" + ANSI_RESET);
-
     public static void main(String[] args) {
-        Scanner escaneador = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);//entrada de leitura
 
-        String capA = 
-        "João Grilo era um menino danado. " +
-        "Até que conheceu seu amigo Chicó. " +
-        "Um dia os dois encontraram com a " +
-        "perna cabeluda. Tu não acredita, " +
-        "quando viram a perna cabeluda, eles ";
+        String capPrincipal = 
+        "Bem-vindo a história da copa do mundo 2022. " +
+        "A copa do mundo é recheda de suspresas, alegrias e decepções, " +
+        "O Brasil começou sofrendo com a perda de Neymar na estreia, mas mesmo assim conseguiu passar. " +
+        "com 3 vitórias na fase de grupos, " +
+        "já a Argentina de Messi começou sofrendo com as surpresas mais passou de fase, " +
+        "e Portugal mostrou toda sua qualidade passando tranquilo "+
+        "Quem será que passa nas oitavas de final ?";
 
-        String capAescolha1 = 
-        "correram feito dois condenados.";
+        String capPRINCesc1 = 
+        "Brasil.";
         
-        String capAescolha2 = 
-        "deram uma rasteira na perna!";
+        String capPRINCesc2 = 
+        "Argentina.";
 
-        String capAescolha3 = 
-        "tacaram fogo na danada.";
+        String capPRINCesc3 = 
+        "Portugal.";
 
-        String capB = 
-        "Uma perseguição digna de hollywood se inicia. " +
-        "Entrando por um beco escuro Chicó tropeça! " +
-        "E aí Grilo olha pra trás desesperado, mas não vê mais " +
-        "a Perna Cabeluda! E agora? João Grilo: ";
+        String capSecund = 
+        "Após jogo difícil Brasil avança contra Córeia do Sul nas oitavas, " +
+        "Argentina Passa fácil contra Austrália, " +
+        "e Portugal dá show e classifica.  " +
+        "Quem será que chega até a final ? ";
 
-        String capBescolha1 =
-        "volta encabulado para ajudar Chicó.";
+        String capSecundesc1 =
+        "Brasil.";
 
-        String capBescolha2 =
-        "abandona o amigo.";
+        String capSecundesc2 =
+        "Argentina.";
 
-        String capC = 
-        "a Perna cai no chão e não consegue se levantar. Fim!";
+        String capSecundesc3 =
+        "Portugal.";
 
-        String capD = 
-        "De repente a perna cabeluda flamejante " +
-        " parece que ganha poderes do outro mundo." +
-        "Ela começa a dançar em círculos e invoca " +
-        "suas companheiras, três mulas sem cabeça. " +
-        "A história começa a ficar tão louca que " +
-        "João Grilo percebe que não tá fazendo sentido " +
-        " e acorda do pesadelo. Fim.";
+        String cap3 = 
+        "O Brasil conquista a copa do mundo e consegue o sonhado hexa. Parabéns !!! por vencer essa grande aventura FIM.";
 
-        String capE = 
-        "Ao chegar pertinho de Chicó, João vê aquela perna. " +
-        "Ela é bem maior do que ele imaginava, seus pelos " +
-        "parecem tranças de rapunzel, só que de arame farpado." +
-        "A perna usa seus tentáculos para trucidar nossos heróis." +
-        "Fim!";
+        String cap4 = 
+        "Argentina consegue Eliminar os Portugueses em jogo espetacular, " +
+        " recheado de emoções mais cai para a seleção canarinho. " +
+        "FIM obrigado !!! pela participação, infelizmente não foi dessa vez.";
 
-        String capF =
-        "No desespero, vendo João Grilo fugir, Chicó começa a rezar. " +
-        "No seu último apelo, nossa senhora, Maria, aparece. " +
-        "Em grande clarão, com palavras gentis, ela diz \"vá embora perninha\". " +
-        "E no fim todos são salvos.";
+        String cap5 = 
+        "Os portugueses conseguem com muita garra fazer grande campanha, " +
+        "mas termina sua trajetória na semifinal diante da Argentina, " +
+        "onde a mesma sai derrotada por 2 x 0." +
+        "mesmo assim parabéns para Cristiano Ronaldo e sua turma. FIM obrigado !!! pela participação, infelizmente não foi dessa vez.";
 
-        System.out.println(capA);
-        System.out.println("- " + capAescolha1);
-        System.out.println("- " + capAescolha2);
-        System.out.println("- " + capAescolha3);
+        String cap6 =
+        "Argentina Chega Longe mais não consegue a sonhada conquista, " +
+        "Onde a mesma é derrotada na final contra o Brasil. FIM obrigado !!! pela participação, infelizmente não foi dessa vez.";
 
-        System.out.print("\nDigite: ");
-        String escolha = escaneador.nextLine();
+        String capnovo = 
+        "A torcida brasileira agradece demais a garra de cada jogador, "+
+        "o hexa demorou mais veio com estilo em cima do maior rival hahaha "+
+        "VAI BRASIL !!!. Será que os Argentinos ficaram tristes ?";
+
+        String capnovoesc1 =
+        "A festa foi grande e os brasileiros nem ligaram";
+
+        String capnovoesc2 =
+        "Teve apoio dos brasileiros que ficaram comovidos com a situação.";
+
+        String capnovoesc3 = 
+        "A torcida ficou na dúvida entre provocar e comemorar mais decidiu comemorar o hexa. ";
+
+        String capnovo2 = "A torcida se mobilizou e não teve zoação pra cima dos argentinos. Fim da História";
+
+        String capnovo3 = "A torcida se mobilizou e fez uma zoação grande pra cima dos argentinos. Fim da História";
+
+        String capnovo4 = "A torcida se mobilizou mais não teve zoação e foi tranquilo, "+
+        "mesmo assim os argentinos provocaram na derrota para os brasileiros. Fim da História.";
+        
+
+        System.out.println(capPrincipal);
+        System.out.println("- " + capPRINCesc1);
+        System.out.println("- " + capPRINCesc2);
+        System.out.println("- " + capPRINCesc3);
+
+        System.out.print("\nDigite uma opção: ");
+        String selecao = in.nextLine();
         System.out.println();
 
-        if(escolha.equalsIgnoreCase(capAescolha1)) {
-            System.out.println(capB);
-            System.out.println("- " + capBescolha1);
-            System.out.println("- " + capBescolha2);
+        if(selecao.equalsIgnoreCase(capPRINCesc1) || (selecao.equalsIgnoreCase(capPRINCesc2)) || (selecao.equalsIgnoreCase(capPRINCesc3))) {
+            System.out.println(capSecund);
+            System.out.println("- " + capSecundesc1);
+            System.out.println("- " + capSecundesc2);
+            System.out.println("- " + capSecundesc3);
 
             System.out.print("\nDigite: ");
-            escolha = escaneador.nextLine();
+            selecao = in.nextLine();
             System.out.println();
 
-            if(escolha.equalsIgnoreCase(capBescolha1)) {
-                System.out.println(capE);
+            if(selecao.equalsIgnoreCase(capPRINCesc1)) {
+                System.out.println(capnovo);
+                System.out.println("- " + capnovoesc1);
+                System.out.println("- " + capnovoesc2);
+                System.out.println("- " + capnovoesc3);
+    
+                System.out.print("\nDigite: ");
+                selecao = in.nextLine();
+                System.out.println();
+
+                if(selecao.equalsIgnoreCase(capnovoesc1)) {
+                    System.out.println(capnovo2);
+                }
+                else if(selecao.equalsIgnoreCase(capnovoesc2)) {
+                    System.err.println(capnovo3);
+                }
+                else if(selecao.equalsIgnoreCase(capnovoesc3)) {
+                    System.err.println(capnovo4);
+                }
+                else {
+                    System.out.println("Escolha Errada !, tente Novamente.");
+                }
+
+            if(selecao.equalsIgnoreCase(capSecundesc1)) {
+                System.out.println(cap3);
             }
-            else if(escolha.equalsIgnoreCase(capBescolha2)) {
-                System.err.println(capF);
+            else if(selecao.equalsIgnoreCase(capSecundesc2)) {
+                System.err.println(cap4);
             }
+            else if(selecao.equalsIgnoreCase(capSecundesc3)) {
+                System.err.println(cap5);
+            }
+            
             else {
-                System.out.println("escolha inválida!");
+                System.out.println("Escolha Errada !, tente Novamente.");
             }
         }
-        else if(escolha.equalsIgnoreCase(capAescolha2)) {
-            System.out.println(capC);
+        else if(selecao.equalsIgnoreCase(capPRINCesc3)) {
+            System.out.println(cap5);
         }
-        else if(escolha.equalsIgnoreCase(capAescolha3)) {
-            System.out.println(capD);
+        else if(selecao.equalsIgnoreCase(capPRINCesc2)) {
+            System.out.println(cap6);
         }
         else {
-            System.out.println("escolha inválida!");
+            System.out.println("Escolha Errada !, tente Novamente.");
         }
 
-        escaneador.close();
+        in.close();
     }
+}
 }

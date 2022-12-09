@@ -1,0 +1,278 @@
+import java.util.Scanner;
+/*Mini-Projeto_02 com utilização de classe e objeto personagem na historia interativa da copa do mundo*/
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        Scanner input = new Scanner(System.in);
+
+        boolean cha = false; //loop bolleano das condicionais caso digite a opcao desejada correta será true ou false
+        boolean FinalM = false;
+        boolean FinalC = false;
+        boolean Personagem1 = false;
+        boolean Personagem2 = false;
+        boolean Personagem3 = false;
+        boolean falha = false; //escolha errada termina a história
+        boolean surprise = false;
+        boolean bra = false;
+        boolean cartao = false;
+        boolean derrotado = false;
+        
+        System.out.println("Bem-vindo ao jogo da Copa do Mundo 2022, faça você sua história <=> ");
+        System.out.println("Escolha seu Craque:");
+        System.out.println("\nNeymar=>'O Craque que desequilibra'      \nMessi=>'O ET decisivo'                      \nCR7=>'O goleador'");
+        System.out.println("Segue abaixo seus atributos: ");
+        System.out.println();
+        System.out.println ("Neymar=>Energia = 100 "+
+                           "\nMessi=>Energia = 100 "+
+                           "\nCR7=>Energia = 98");                
+                           System.out.println ("Neymar=>Pontos de Habilidade = 500 "+
+                           "\nMessi=>Pontos de Habilidade = 980 "+
+                           "\nCR7=>Pontos de Habilidade = 83");
+
+        while (Personagem1 == false && Personagem2 == false && Personagem3 == false){
+            System.out.println("\n Digite (Neymar), (Messi) ou (CR7): ");
+            String x = input.nextLine();
+            if (x.equalsIgnoreCase("Neymar")){
+                Personagem1 = true;
+            }
+            else if(x.equalsIgnoreCase("Messi")){
+                Personagem2 = true;
+            }
+            else if(x.equalsIgnoreCase("CR7")){
+                Personagem3 = true;
+            }
+            else{
+                System.out.println("Opção inválida");
+            }
+        }
+        
+        personagem Neymar = new personagem("Neymar", 100, 500);
+        personagem Messi = new personagem("Messi", 100, 900);
+        personagem CR7 = new personagem("CR7", 98, 83);
+
+        while (falha == false){
+            //CAPÍTULO 01
+            System.out.println("A fase de grupos da copa começa cheio de emoção com derrotas inesperadas e contusões que atrapalharam o caminho dos craques."+
+                               " Os nossos candidatos a herói da copa começaram sofrendo como Messi da Argentina que acabou derrotado na estreia, "+
+                               " já o outro candidato Neymar a herói da copa começou sofrendo com uma contusão na estreia e "+
+                               " CR7 começou meio apagado mais conseguiu ajudar no jogo de estreia deixando sua marca de goleador com um gol, "+
+                               " Será que os craques conseguiram jogar todos os jogos da fase de grupos ?");
+            while (cha == false){
+                System.out.println("Digite Sim ou Nao");
+                String y = input.nextLine();
+                if (y.equalsIgnoreCase("Sim")){
+                    System.out.print("Você acreditou no poder e a energia positiva dos craques que mesmo desgastados conseguiram jogar, mas ");
+                    System.out.println("inevitalvelmente teve perca de energia");
+                    if(Personagem2 == true){
+                        Neymar.cansaso(36);
+                        System.out.println("Energia atual: " + Messi.energia);
+                    }
+                    else if (Personagem1 == true){
+                        Neymar.cansaso(20);
+                        System.out.println("Energia atual: " + Neymar.energia);
+                    }
+                    else if (Personagem3 == true){
+                        CR7.cansaso(10);
+                        System.out.println("Energia atual: " + CR7.energia);
+                    }
+                    System.out.println("Com isso sua habilidade aumentou ");
+                    if(Personagem2 == true){
+                        Messi.gastar(-50);
+                        System.out.println("Poder atual: " + Messi.Poder);
+                    }
+                    else if (Personagem1 == true){
+                        Neymar.gastar(-15);
+                        System.out.println("Poder atual: " + Neymar.Poder);
+                    }
+                    else if (Personagem3 == true){
+                        CR7.gastar(-320);
+                        System.out.println("Poder atual: " + CR7.Poder);
+                    }
+                    cha = true;
+                }
+                else if (y.equalsIgnoreCase("Nao")){
+                    System.out.println("Você não acredita que todos os craques conseguiram participar de todos os 3 jogos da fase de grupos. " +
+                    " Neymar machucado só consegue jogar a estreia, já Messi não sofre com lesões sendo decisivo nos jogos e CR7 consegue atuar nos 3 jogos sem tanto brilho. ");
+                    cha = true;
+                }
+                else{
+                    System.out.println("Opção incorreta");
+                }
+            }
+            cha = false;
+
+            System.out.println("Dando prosseguimento na caminhada dos craques. "+
+            "Neymar volta nas oitvas de final sendo decisivo e deixando sua marca, "+
+            " já Messi volta a desequilibrar como já faz a muito tempo na seleçâo e "+
+            "CR7 tem discussão com seu treinador na seleção e termina ficando de fora de quase todo o primeiro jogo decisivo");
+            System.out.println("Será que conseguiram a classificação ? ");
+            while (cha == false){
+                System.out.println("Digite, conseguiram ou fracassaram");
+                String z = input.nextLine();
+                
+                if(z.equalsIgnoreCase("conseguiram")){
+                    System.out.println("Mesmo sem todos os craques mostrarem o mesmo brilho todos conseguem classificar");
+                    if(Personagem2 == true){
+                        Messi.gastar(25);
+                        System.out.println("Poder atual: " + Messi.Poder);
+                    }
+                    else if (Personagem1 == true){
+                        Neymar.gastar(310);
+                        System.out.println("Poder atual: " + Neymar.Poder);
+                    }
+                    else if (Personagem3 == true){
+                        CR7.gastar(100);
+                        System.out.println("Poder atual: " + CR7.Poder);
+                    }
+                    System.out.println("Mesmo classificados alguns perdem mais energia do que outros: ");
+                    if(Personagem2 == true){
+                        Messi.cansaso(230);
+                        System.out.println("Energia atual: " + Messi.energia);
+                    }
+                    else if (Personagem1 == true){
+                        Neymar.cansaso(12);
+                        System.out.println("Energia atual: " + Neymar.energia);
+                    }
+                    else if (Personagem3 == true){
+                        CR7.cansaso(5);
+                        System.out.println("Energia atual: " + CR7.energia);
+                    }
+                    if (Messi.Poder == 0){
+                        break;
+                    }
+                    cha = true;
+                }
+                else if(z.equalsIgnoreCase("fracassaram")){
+                    surprise = true;
+                    falha = true;
+                    System.out.println("Todos batalham com muita garra para conseguir a classificação, mas acabam derrotados e eliminados da copa do mundo. ");
+                    break;
+                }
+                else{
+                    System.out.println("Opção incorreta");
+                }
+            }
+            if (Messi.Poder == 0 || Neymar.Poder == 0 || CR7.Poder == 0){
+                System.out.println("Você foi eliminado e não tem mais habilidade nem energia para continuar a jornada. 'Tente novamente !'");
+                derrotado = true;
+                break;
+            }
+            if (surprise == true){
+                break;
+            }
+
+            
+            cha = false;
+            System.out.print("Após Neymar, Messi e CR7 conseguir a classificação, "+
+                             "será que os heróis conseguiram nova classificação para semifinal.");
+            System.out.println("Você acredita na classificação ?");
+            while (cha == false){
+                System.out.println("Digite sim ou não");
+                String v = input.nextLine();
+                if(v.equalsIgnoreCase("sim")){
+                    System.out.print("Sua confiança nos herois foi essencial para a vitória, "+
+                                     "pois os mesmo usaram toda sua habilidade de decidir para conseguir o objetivo. ");
+                    System.out.print("Entretanto consumiu alguns pontos de energia.");
+
+                    cha = true;
+                    if(Personagem2 == true){
+                        Messi.cansaso(20);
+                        System.out.println("Energia atual: " + Messi.energia);
+                    }
+                    else if (Personagem1 == true){
+                        Neymar.cansaso(10);
+                        System.out.println("Energia atual: " + Neymar.energia);
+                    }
+                    else if (Personagem3 == true){
+                        CR7.cansaso(40);
+                        System.out.println("Energia atual: " + CR7.energia);
+                    }
+                    if(Neymar.energia == 0 || Messi.energia == 0 || CR7.energia == 0){
+                        System.out.print("O esforço foi tão grande que os craques perderam, "+
+                                         "um pouco do controle e foram advertidos com cartão amarelo. ");
+                        cartao = true;
+                        break;
+                    }
+                }
+                else if(v.equalsIgnoreCase("nao")){
+                    System.out.print(" Infelizmente o craque neymar é derrotado na batalha, mas CR7 e Messi continuam na batalha. ");
+                    bra = true;
+                    break;
+                }
+                else{
+                    System.out.println("Opção incorreta");
+                }
+            }
+            if (bra == true){
+                break;
+            }
+            if (cartao == true){
+                break;
+            }
+            cha = false;
+            System.out.print("Neymar se esforça pra tentar ser o herói brasileiro na copa mais acaba tropeçando no meio do caminho. "+
+                             "Então restando apenas dois heróis na batalha final que vence essa batalha épica. "+
+                             " CR7 ou Messi essa copa do mundo 2022 ?");
+            
+
+            while (cha == false){
+                System.out.println("CR7 decide na final marcando o gol do título para Portugal custando muitos pontos de habilidade. "+
+                                   "Messi decide na final marcando o gol do título para Argentina custando muitos pontos de habilidade. "+
+                                   "Chegou a hora de você decidir que ganha essa batalha Messi, CR7 ou surpresa ?");
+                System.out.println("Digite sua escolha, escolhendo um número de 1 até 2");
+                String w = input.nextLine();
+
+                if (w.equalsIgnoreCase("2") && Personagem2 == true && Messi.Poder >= 333){
+                    System.out.println("Você selecionou o Messi.");
+                    cha = true;
+                    FinalC = true;
+                }
+                else if (w.equalsIgnoreCase("1") && Personagem3 == true && CR7.Poder >= 300){
+                    System.out.println("Você selecionou O CR7.");
+                    
+                    cha = true;
+                    FinalM = true;
+                }
+                if (w.equalsIgnoreCase("1") && Personagem2 == true && Messi.Poder >= 333){
+                    System.out.println("Você selecionou o Messi.");
+                    cha = true;
+                    FinalC = true;
+                }
+                else if (w.equalsIgnoreCase("2") && Personagem3 == true && CR7.Poder >= 300){
+                    System.out.println("Você selecionou o CR7.");
+                    cha = true;
+                    FinalM = true;
+                }
+                else if ( Messi.Poder < 100 || CR7.Poder < 100 ){
+                    System.out.println("Você não tem poder suficiente.");
+                    derrotado = true;
+                    break;
+                }
+                else{
+                    System.out.println("");
+                }
+            }
+            falha = true;
+        }
+        if (surprise == true){
+            System.out.println("Você lutou como um verdadeiro guerreiro campeão mais fracassou por detalhes.");
+        }
+        
+        if (derrotado == true){
+            System.out.println("Por não teve força suficiente, você foi derrotado pelos franceses.");
+        }
+        if (FinalC == true){
+            System.out.print("O sonho de CR7 ser campeão mundial e herói português se tornou realidade. "+
+                             "A conquista inédita nunca será esquecida !.");
+           
+        }
+        else if (FinalM == true){
+            System.out.print("O sonho de Messi ser campeão mundial e herói argentino se tornou realidade. "+
+                             "O tri dos hermanos nunca será esquecida !.");
+            
+        }
+        System.out.println("Fim! obrigado pela participação você também é um herói.");
+        input.close();
+        
+    }
+}

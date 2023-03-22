@@ -25,5 +25,4 @@ public class Escolha
   {
     return this.texto;
   }
-
 }

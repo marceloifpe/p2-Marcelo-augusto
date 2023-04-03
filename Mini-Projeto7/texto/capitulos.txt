@@ -1,0 +1,113 @@
+CAPITULO
+NOME
+Cap1
+TEXTO
+Bem-Vindo as terras sombrias de HigsWard, nessa aventura o nosso cavaleiro Richard irá enfrentar, diversas maldições. olá defensor tudo bem, sua missão começa logo em uma caverna, onde o mesmo encontra um grande dragão cuspidor de gelo que tenta congelar o mesmo, mas será que seu escudo e lança seram capazes de derrotar o temido dragão gyrus ? Digite uma opção:(1 ou 2)
+PERSONAGEM
+Richard
+VARIAÇÃO DE ENERGIA
+0
+
+CAPITULO
+NOME
+Cap2
+TEXTO
+olá cavaleiro você não conseguiu derrotar o dragão, graças ao visionário do tempo que lhe avisou que seu equipamento não era forte o suficiente para derrotar aquele temido dragão, mas se o visionário lhe oferecer um equipamento mais forte você conseguirá derrotar o dragão sem perder equipamento ? Digite uma opção(1, 2 e 3) ",
+PERSONAGEM
+Richard
+VARIAÇÃO DE ENERGIA
+-40
+
+CAPITULO
+NOME
+Cap3
+TEXTO
+Sabia resposta Cavaleiro, sua escolha salvou sua progressão. Nessas terras sombrias, com essa escolha o cavaleiro teve a chance de sair das terras sombrias e recrutar um grupo de mercenários para ajudar em sua luta contra o dragão de gelo na caverna sombria de HigsWard. 
+PERSONAGEM
+Richard
+VARIAÇÃO DE ENERGIA
+-60
+ 
+CAPITULO
+NOME
+Cap4
+TEXTO
+Você acreditou! na derrota do dragão, mas infelizmente o cavaleiro teve seu equipamento destruído, impossibilitando de continuar a jornada.A sorte foi que o cavaleiro saiu ileso da batalha.
+PERSONAGEM
+Richard
+VARIAÇÃO DE ENERGIA
++100
+
+CAPITULO
+NOME
+Cap5
+TEXTO
+Você foi enganado! o visionário queria apenas ver você ser aprisionado. O mesmo lhe deu um pedaço de madeira para enfrentar o dragão sem escudo rsrsrs, ocasionando no seu congelamento, onde o dragão te congelou com seu raio de gelo.
+PERSONAGEM
+Richard
+VARIAÇÃO DE ENERGIA
++100
+
+CAPITULO
+NOME
+Cap6
+TEXTO
+O Experiente cavaleiro John ajuda Richard a derrotar o dragão, logo após o confronto John promete oferecer apoio nas próximas batalhas contra as criaturas sombrias da floresta...,
+PERSONAGEM
+John
+VARIAÇÃO DE ENERGIA
+-50
+
+ESCOLHA
+CAPITULO ORIGEM
+Cap1
+TEXTO DIGITADO
+1
+TEXTO MOSTRADO
+nao
+CAPITULO DESTINO
+Cap2
+
+
+
+ESCOLHA
+CAPITULO ORIGEM
+Cap1
+TEXTO DIGITADO
+2
+TEXTO MOSTRADO
+sim
+CAPITULO DESTINO
+Cap4
+
+
+ESCOLHA
+CAPITULO ORIGEM
+Cap2
+TEXTO DIGITADO
+1
+TEXTO MOSTRADO
+agora sim
+CAPITULO DESTINO
+Cap5
+
+
+ESCOLHA
+CAPITULO ORIGEM
+Cap2
+TEXTO DIGITADO
+2
+TEXTO MOSTRADO
+deve haver outra forma
+CAPITULO DESTINO
+Cap6
+
+ESCOLHA
+CAPITULO ORIGEM
+Cap2
+TEXTO DIGITADO
+3
+TEXTO MOSTRADO
+sem chances
+CAPITULO DESTINO
+Cap3

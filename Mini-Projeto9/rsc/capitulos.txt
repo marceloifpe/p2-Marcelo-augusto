@@ -1,0 +1,248 @@
+historia dos capitulos
+
+CAPITULO_COM_IMAGEM:
+IMAGEM
+
+                ))))))
+              __)____)__
+                -)- )))
+        ,       \=_/ \__
+     __/).          )_/=\
+    /6)   \      __((_\_/\
+   /   __/ \    /_/-\o____)
+  / ,_/|    \   \/  ))\\\\\
+  \_)o_'     _.-'  ,/:_/_\\    ___
+       '---`' \>__/   /\\---.,/_  \
+       (      /  /  /\\        \)  \
+       |        ('  \\\        (   /
+  _____/         )__\\ /       /\ (
+ / _______/,_____| |_,(       /  ) )
+/ (_     \  |   _/ o)  \     /_  |/
+\_ /     ( '| (___/     `.__  /  '
+          \ |        / _/ / _/
+           \(       / /  / /
+            )\     / (  ( <
+Richard  ,./_(,, ,/_|    \_/,,._
+FIM_DA_IMAGEM:
+TITULO
+Capitulo-1
+NOME
+--------------(O inicio de uma jornada em HigsWard...)--------------
+TEXTO
+Bem-Vindo as terras sombrias de HigsWard, nessa aventura o nosso cavaleiro Richard irá enfrentar, diversas maldições. olá defensor tudo bem, sua missão começa logo em uma caverna do vilarejo, onde o mesmo encontra um grande dragão cuspidor de gelo que tenta congelar o mesmo, mas será que seu escudo e lança seram capazes de derrotar o temido dragão gyrus ? Digite uma opção:(1 ou 2)
+PERSONAGEM
+Richard
+VARIAÇÃO DE ENERGIA
+0
+
+CAPITULO_COM_IMAGEM:
+IMAGEM
+                        -----
+                       /    |
+                      /     |
+                     /      |
+                    /       |
+               ___,'        |
+             <  -'          :
+              `-.__..--'``-,_\_
+                 |o/ <o>` :,.)_`>
+                 :/ `     ||/)
+                 (_.).__,-` |\
+                 /( `.``   `| :
+                 \'`-.)  `  ; ;
+                 | `       /-<
+                 |     `  /   `.
+ ,-_-..____     /|  `    :__..-'\
+/,'-.__\\  ``-./ :`      ;       \
+`\ `\  `\\  \ :  (   `  /  ,   `. \
+  \` \   \\   |  | `   :  :     .\ \
+   \ `\_  ))  :  ;     |  |      ): :
+  (`-.-'\ ||  |\ \   ` ;  ;       | |
+   \-_   `;;._   ( `  /  /_       | |
+    `-.-.// ,'`-._\__/_,'         ; |
+       \:: :     /     `     ,   /  |
+        || |    (        ,' /   /   |
+        ||                ,'   /    |
+O visionário
+FIM_DA_IMAGEM:
+TITULO
+Cap2
+NOME
+--------------(Um encontro inesperado)--------------
+TEXTO
+olá cavaleiro você não conseguiu derrotar o dragão, graças ao visionário do tempo que lhe avisou que seu equipamento não era forte o suficiente para derrotar aquele temido dragão, mas se o visionário lhe oferecer um equipamento mais forte você conseguirá derrotar o dragão sem perder equipamento ? Digite uma opção(1, 2 e 3) ",
+PERSONAGEM
+Richard
+VARIAÇÃO DE ENERGIA
+-40
+
+CAPITULO_COM_IMAGEM:
+IMAGEM
+                         ___
+                       ,' _ `.
+                       \,' )  )
+                         ,'  /
+                       ,;  ,'`-.
+                      //  /     `-.
+                     //  /         `-.
+                    //  /             `.               ______
+                   //  /                `.           ,'.  . .`.
+                  //  /                   `.        /,`.`-.`.`.`.
+                 //  /                      `.      ).,-  '.\')\\:
+                ::  :                         `.   (a /a)  :';)`)|
+                ;;  ;                           `.  )'     |'|\/'|
+               ::  :                               /_,     |'|\ ||
+               ;;  ;                                )__    |'|/`.|
+              ::  :                                  \_    :'|,'||
+              ||  |                                    `-.' :|  \|
+_.._-_-,______||  |______________________________,',',-,(\ /||_,'`.
+`-...__.----,.||__|_----------------'''''''''''''`..-.(,'))\||,'
+            >-''  _ `._  ____ ____________________..`'`-`/_-||  `.
+           /.`--'' `   `' `.. `.`.     `.    `.    `.      `||.
+           (_`_...-'   `    : . \ \   .  \     )     `.     |'  \
+            \_`__..'.   ____;  . : :   )         |\    \   /  :  \
+              :--...-'''`._/_.___; ;        )    ; )   /      |   |
+              |  ||         \   / /      _,'    /    __....---|
+              :  ::          `-'-'-...--'...--''`-';'/        |
+               :  ::                             ,'  :        :
+               :  ::                           ,'    |\       |\
+                :  ::                        ,'      | \    | ; `.
+                :  ::                      ,'        :  \   ; \   `
+                 \  \\                   ,'          (   `-'  (
+                  \  \\                ,'            /       /|`
+                   \  \\            ,-'              : `.__,' |  )
+                    \  \\        ,-'                 |        (
+                     \  \\    ,-'                    ;        |\
+                      \  \\,-'                       \        ( \
+                       `. `:.                        ;\   _,  /  \
+                         `. \\                       | \      \   \
+                       /`._) ))                      |  `     : ,  `
+                       `.___,'                       |   _,'  |  
+
+FIM_DA_IMAGEM:
+TITULO
+Cap3
+NOME
+--------------(Uma mudança inesperada)--------------
+TEXTO
+Sabia resposta Cavaleiro, sua escolha salvou sua progressão. Nessas terras sombrias, com essa escolha o cavaleiro teve a chance de sair das terras sombrias e recrutar um grupo de mercenários para ajudar em sua luta contra o dragão de gelo na caverna sombria de HigsWard. 
+PERSONAGEM
+Richard
+VARIAÇÃO DE ENERGIA
+-60
+ 
+CAPITULO:
+TITULO
+Cap4
+NOME
+--------------(As escolhas ruins mudam seu progresso em Higsward)--------------
+TEXTO
+Você acreditou! na derrota do dragão, mas infelizmente o cavaleiro teve seu equipamento destruído, impossibilitando de continuar a jornada.A sorte foi que o cavaleiro saiu ileso da batalha.
+PERSONAGEM
+Richard
+VARIAÇÃO DE ENERGIA
++100
+
+CAPITULO_COM_IMAGEM:
+IMAGEM
+    \||/
+                |  @___oo
+      /\  /\   / (__,,,,|
+     ) /^\) ^\/ _)
+     )   /^\/   _)
+     )   _ /  / _)
+ /\  )/\/ ||  | )_)
+<  >      |(,,) )__)
+ ||      /    \)___)\
+ | \____(      )___) )___
+  \______(_______;;; __;;;
+dragão cuspidor de gelo
+FIM_DA_IMAGEM:
+TITULO
+Cap5
+NOME
+--------------(O disfarce é algo tentador)--------------
+TEXTO
+Você foi enganado! o visionário queria apenas ver você ser aprisionado. O mesmo lhe deu um pedaço de madeira para enfrentar o dragão sem escudo rsrsrs, ocasionando no seu congelamento, onde o dragão te congelou com seu raio de gelo.
+PERSONAGEM
+Richard
+VARIAÇÃO DE ENERGIA
++100
+
+CAPITULO_COM_IMAGEM:
+IMAGEM
+<=======]}======
+    --.   /|
+   _\"/_.'/
+ .'._._,.'
+ :/ \{}/
+(L  /--',----._
+    |          \\
+   : /-\ .'-'\ / |
+    \\, ||    \|
+     \/ ||    ||
+FIM_DA_IMAGEM:
+TITULO
+Cap6
+NOME
+--------------(Uma ajuda pode te levantar)--------------
+TEXTO
+O Experiente cavaleiro metade cavalo e metade homem John, ajuda Richard a derrotar o dragão, logo após o confronto John promete oferecer apoio nas próximas batalhas contra as criaturas sombrias da floresta...,
+PERSONAGEM
+John
+VARIAÇÃO DE ENERGIA
+-50
+
+escolhas do capítulo
+
+ESCOLHA:
+CAPITULO ORIGEM
+Capitulo-1
+TEXTO DIGITADO
+1
+TEXTO MOSTRADO
+nao
+CAPITULO DESTINO
+Cap2
+
+ESCOLHA:
+CAPITULO ORIGEM
+Capitulo-1
+TEXTO DIGITADO
+2
+TEXTO MOSTRADO
+sim
+CAPITULO DESTINO
+Cap4
+
+
+ESCOLHA:
+CAPITULO ORIGEM
+Cap2
+TEXTO DIGITADO
+1
+TEXTO MOSTRADO
+agora sim
+CAPITULO DESTINO
+Cap5
+
+
+ESCOLHA:
+CAPITULO ORIGEM
+Cap2
+TEXTO DIGITADO
+2
+TEXTO MOSTRADO
+deve haver outra forma
+CAPITULO DESTINO
+Cap6
+
+ESCOLHA:
+CAPITULO ORIGEM
+Cap2
+TEXTO DIGITADO
+3
+TEXTO MOSTRADO
+sem chances
+CAPITULO DESTINO
+Cap3
